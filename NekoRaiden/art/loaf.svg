@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="90" viewBox="0 0 200 120">
+	<!-- Neko Raiden, cat form, asleep as a loaf with her braid for a tail -->
+	<defs>
+		<linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0" stop-color="#7C66C4"/>
+			<stop offset="1" stop-color="#4A3780"/>
+		</linearGradient>
+	</defs>
+	<g opacity="0.92">
+		<!-- Zzz -->
+		<text x="104" y="34" font-family="Segoe UI, Arial, sans-serif" font-weight="bold" font-size="13" fill="#B3A6D6">z</text>
+		<text x="114" y="22" font-family="Segoe UI, Arial, sans-serif" font-weight="bold" font-size="17" fill="#C9AEFF">z</text>
+		<text x="127" y="10" font-family="Segoe UI, Arial, sans-serif" font-weight="bold" font-size="11" fill="#E4C27A">z</text>
+
+		<!-- body loaf -->
+		<path d="M30,108 C24,74 52,52 100,52 C150,52 180,70 176,108 Z" fill="url(#fur)"/>
+		<path d="M70,62 C90,56 120,56 140,62" fill="none" stroke="#9E8AE0" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+
+		<!-- braid tail wrapped around the front of the loaf -->
+		<g stroke="#33255E" stroke-width="1.5">
+			<ellipse cx="174" cy="84" rx="9" ry="7" transform="rotate(-75 174 84)" fill="#5B4596"/>
+			<ellipse cx="174" cy="97" rx="9.5" ry="7" transform="rotate(-60 174 97)" fill="#6A55A8"/>
+			<ellipse cx="165" cy="106" rx="10" ry="7" transform="rotate(-25 165 106)" fill="#5B4596"/>
+			<ellipse cx="152" cy="110" rx="10" ry="7" transform="rotate(-8 152 110)" fill="#6A55A8"/>
+			<ellipse cx="138" cy="111.5" rx="10" ry="6.5" fill="#5B4596"/>
+			<ellipse cx="124" cy="111.5" rx="9" ry="6" fill="#6A55A8"/>
+		</g>
+		<g fill="none" stroke="#9E8AE0" stroke-width="1.4" stroke-linecap="round" opacity="0.7">
+			<path d="M171,93 Q175,95 177,99"/>
+			<path d="M148,107 Q152,106 156,108"/>
+			<path d="M120,109 Q124,108 128,109"/>
+		</g>
+		<!-- gold band and violet tassel -->
+		<rect x="110" y="105.5" width="6" height="12" rx="2" fill="#E4C27A" stroke="#A07D3D" stroke-width="1"/>
+		<path d="M110,107 C103,104 95,106 91,111.5 C95,117 103,119 110,116 Z" fill="#9B6BF0" stroke="#6E44CF" stroke-width="1"/>
+		<path d="M108,111.5 L96,111.5" stroke="#C9AEFF" stroke-width="1.2" stroke-linecap="round"/>
+
+		<!-- tucked paws -->
+		<ellipse cx="48" cy="108" rx="12" ry="7" fill="#FFF4F8" stroke="#D9C4E8" stroke-width="1.5"/>
+		<ellipse cx="74" cy="109" rx="12" ry="7" fill="#FFF4F8" stroke="#D9C4E8" stroke-width="1.5"/>
+
+		<!-- head -->
+		<path d="M30,52 C28,36 30,22 36,12 C46,18 54,26 58,36 Z" fill="url(#fur)"/>
+		<path d="M35,44 C34,34 35,26 38,20 C44,24 49,30 51,36 Z" fill="#F2B8CC"/>
+		<path d="M94,52 C96,36 94,22 88,12 C78,18 70,26 66,36 Z" fill="url(#fur)"/>
+		<path d="M89,44 C90,34 89,26 86,20 C80,24 75,30 73,36 Z" fill="#F2B8CC"/>
+		<ellipse cx="62" cy="66" rx="36" ry="31" fill="url(#fur)"/>
+
+		<!-- Raiden-style bangs -->
+		<path d="M30,62 C28,42 44,34 62,34 C80,34 96,42 94,62 L88,52 L82,62 L74,48 L66,60 L58,46 L50,60 L42,50 L36,62 Z" fill="#5B4596"/>
+
+		<!-- muzzle -->
+		<ellipse cx="62" cy="80" rx="15" ry="10" fill="#F4ECFF"/>
+
+		<!-- sleeping eyes -->
+		<path d="M41,69 Q48,75 55,69" fill="none" stroke="#2A1752" stroke-width="2.6" stroke-linecap="round"/>
+		<path d="M69,69 Q76,75 83,69" fill="none" stroke="#2A1752" stroke-width="2.6" stroke-linecap="round"/>
+		<circle cx="85" cy="77" r="1.2" fill="#5A3A5A"/>
+		<ellipse cx="40" cy="78" rx="5" ry="2.5" fill="#F58CAB" opacity="0.5"/>
+		<ellipse cx="84" cy="81" rx="5" ry="2.5" fill="#F58CAB" opacity="0.5"/>
+
+		<!-- nose and mouth -->
+		<path d="M59.5,76 L64.5,76 L62,79 Z" fill="#E88AA4"/>
+		<path d="M57,82 Q59.5,85 62,82 Q64.5,85 67,82" fill="none" stroke="#8A4B5A" stroke-width="1.6" stroke-linecap="round"/>
+
+		<!-- whiskers -->
+		<path d="M44,80 L30,78 M44,84 L31,86 M80,80 L94,78 M80,84 L93,86" stroke="#D9C4E8" stroke-width="1.2" stroke-linecap="round"/>
+
+		<!-- collar with golden vision -->
+		<path d="M38,92 Q62,102 86,92" fill="none" stroke="#C9304E" stroke-width="4" stroke-linecap="round"/>
+		<path d="M62,95 L67,101 L62,107 L57,101 Z" fill="#E4C27A" stroke="#A07D3D" stroke-width="1"/>
+		<circle cx="62" cy="101" r="2" fill="#8A5CF0"/>
+
+		<!-- hair flower -->
+		<g transform="translate(86,36)">
+			<circle cx="0" cy="-6" r="4.5" fill="#9B6BF0"/>
+			<circle cx="5.7" cy="-1.9" r="4.5" fill="#8A5CF0"/>
+			<circle cx="3.5" cy="4.9" r="4.5" fill="#9B6BF0"/>
+			<circle cx="-3.5" cy="4.9" r="4.5" fill="#8A5CF0"/>
+			<circle cx="-5.7" cy="-1.9" r="4.5" fill="#9B6BF0"/>
+			<circle cx="0" cy="0" r="3" fill="#E4C27A"/>
+		</g>
+	</g>
+</svg>

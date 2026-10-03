@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="136" viewBox="0 0 140 170">
+	<!-- Neko Raiden, cat form, sitting under falling sakura -->
+	<defs>
+		<linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0" stop-color="#7C66C4"/>
+			<stop offset="1" stop-color="#4A3780"/>
+		</linearGradient>
+		<linearGradient id="iris" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0" stop-color="#3B2470"/>
+			<stop offset="0.45" stop-color="#7A4FD8"/>
+			<stop offset="1" stop-color="#D2B4FF"/>
+		</linearGradient>
+	</defs>
+	<g opacity="0.92">
+		<!-- sakura petals -->
+		<g fill="#F5A9C4">
+			<ellipse cx="14" cy="30" rx="5" ry="3" transform="rotate(30 14 30)"/>
+			<ellipse cx="126" cy="18" rx="4" ry="2.5" transform="rotate(-20 126 18)"/>
+			<ellipse cx="22" cy="96" rx="4" ry="2.5" transform="rotate(60 22 96)"/>
+		</g>
+
+		<!-- braid tail curling up the right -->
+		<g fill="#5B4596" stroke="#3E2D70" stroke-width="1.5">
+			<ellipse cx="108" cy="160" rx="10" ry="7" transform="rotate(-20 108 160)"/>
+			<ellipse cx="120" cy="149" rx="10" ry="7" transform="rotate(-55 120 149)"/>
+			<ellipse cx="125" cy="135" rx="10" ry="7" transform="rotate(-80 125 135)"/>
+			<ellipse cx="124" cy="121" rx="9" ry="6.5" transform="rotate(-100 124 121)"/>
+		</g>
+		<rect x="117" y="104" width="10" height="7" rx="2" fill="#C9A257"/>
+		<path d="M122,104 C116,96 118,88 124,82 C128,90 128,98 122,104 Z" fill="#9B6BF0"/>
+
+		<!-- body -->
+		<path d="M30,166 C20,128 38,98 70,98 C102,98 120,128 110,166 Z" fill="url(#fur)"/>
+		<ellipse cx="70" cy="140" rx="20" ry="22" fill="#F4ECFF" opacity="0.9"/>
+
+		<!-- front paws -->
+		<ellipse cx="55" cy="164" rx="12" ry="7" fill="#FFF4F8" stroke="#D9C4E8" stroke-width="1.5"/>
+		<ellipse cx="85" cy="164" rx="12" ry="7" fill="#FFF4F8" stroke="#D9C4E8" stroke-width="1.5"/>
+
+		<!-- ears -->
+		<path d="M32,62 C28,42 30,24 38,10 C50,18 60,28 64,40 Z" fill="url(#fur)"/>
+		<path d="M38,52 C36,40 37,30 40,22 C47,27 53,33 56,40 Z" fill="#F2B8CC"/>
+		<path d="M108,62 C112,42 110,24 102,10 C90,18 80,28 76,40 Z" fill="url(#fur)"/>
+		<path d="M102,52 C104,40 103,30 100,22 C93,27 87,33 84,40 Z" fill="#F2B8CC"/>
+
+		<!-- head -->
+		<ellipse cx="70" cy="72" rx="42" ry="36" fill="url(#fur)"/>
+
+		<!-- bangs -->
+		<path d="M30,70 C28,46 46,36 70,36 C94,36 112,46 110,70 L103,58 L97,70 L88,52 L79,66 L70,50 L61,66 L52,52 L43,70 L37,58 Z" fill="#5B4596"/>
+
+		<!-- muzzle -->
+		<ellipse cx="70" cy="88" rx="17" ry="11" fill="#F4ECFF"/>
+
+		<!-- eyes -->
+		<ellipse cx="53" cy="76" rx="8" ry="9.5" fill="url(#iris)"/>
+		<ellipse cx="53" cy="77" rx="2.6" ry="6" fill="#2A1752"/>
+		<circle cx="50.5" cy="72.5" r="2.6" fill="#FFFFFF"/>
+		<path d="M44,69 Q53,63 62,69" fill="none" stroke="#2A1752" stroke-width="2.6" stroke-linecap="round"/>
+
+		<ellipse cx="87" cy="76" rx="8" ry="9.5" fill="url(#iris)"/>
+		<ellipse cx="87" cy="77" rx="2.6" ry="6" fill="#2A1752"/>
+		<circle cx="84.5" cy="72.5" r="2.6" fill="#FFFFFF"/>
+		<path d="M78,69 Q87,63 96,69" fill="none" stroke="#2A1752" stroke-width="2.6" stroke-linecap="round"/>
+
+		<circle cx="95" cy="88" r="1.2" fill="#5A3A5A"/>
+		<ellipse cx="44" cy="88" rx="5" ry="2.5" fill="#F58CAB" opacity="0.5"/>
+		<ellipse cx="96" cy="93" rx="5" ry="2.5" fill="#F58CAB" opacity="0.5"/>
+
+		<!-- nose, mouth, whiskers -->
+		<path d="M67.5,84 L72.5,84 L70,87 Z" fill="#E88AA4"/>
+		<path d="M65,90 Q67.5,93 70,90 Q72.5,93 75,90" fill="none" stroke="#8A4B5A" stroke-width="1.6" stroke-linecap="round"/>
+		<path d="M52,88 L36,86 M52,92 L37,95 M88,88 L104,86 M88,92 L103,95" stroke="#D9C4E8" stroke-width="1.2" stroke-linecap="round"/>
+
+		<!-- collar with golden vision -->
+		<path d="M44,104 Q70,114 96,104" fill="none" stroke="#C9304E" stroke-width="4" stroke-linecap="round"/>
+		<path d="M70,107 L75.5,114 L70,121 L64.5,114 Z" fill="#E4C27A" stroke="#A07D3D" stroke-width="1"/>
+		<circle cx="70" cy="114" r="2.2" fill="#8A5CF0"/>
+
+		<!-- hair flower -->
+		<g transform="translate(100,40)">
+			<path d="M-2,4 L10,22" stroke="#C9A257" stroke-width="2" stroke-linecap="round"/>
+			<circle cx="0" cy="-6" r="5" fill="#9B6BF0"/>
+			<circle cx="5.7" cy="-1.9" r="5" fill="#8A5CF0"/>
+			<circle cx="3.5" cy="4.9" r="5" fill="#9B6BF0"/>
+			<circle cx="-3.5" cy="4.9" r="5" fill="#8A5CF0"/>
+			<circle cx="-5.7" cy="-1.9" r="5" fill="#9B6BF0"/>
+			<circle cx="0" cy="0" r="3.2" fill="#E4C27A"/>
+		</g>
+
+		<!-- electro sparkle -->
+		<path d="M18,128 L20,134 L26,136 L20,138 L18,144 L16,138 L10,136 L16,134 Z" fill="#C9AEFF"/>
+	</g>
+</svg>
